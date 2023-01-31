@@ -11,6 +11,6 @@ on writing a protocol to communicate between the devices.
 2) The Student should then make it so that both pis send this request to each other waiting between for a return request (half Duplex).
 3) The Student should then implement a full duplex connection between them, they'll need to create a buffer to store the information comming in (it wont be big enough!).
 3) The Student should then implement data throttling on a duplex connection with one line for each i.e. throttling and data (cicuit switching).
-4) The Student should implement a basic packet switching system through the creation of their own headers.
+4) The Student should implement a basic packet switching system through the creation of their own headers, allowing for concurrent communication about both the speed and the Result.
 
 > the purpose of this is to develop an understanding of networks, connections within networks & how packets work.
